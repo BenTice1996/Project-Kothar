@@ -2,6 +2,8 @@ import pandas as pd
 import dash
 from dash import dcc, html, Input, Output, State, ctx
 import re
+import requests
+import io
 
 # === Load Data from GitHub ===
 CSV_URL = "https://dataverse.harvard.edu/api/access/datafile/11812470"
