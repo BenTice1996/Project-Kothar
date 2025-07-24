@@ -5,7 +5,8 @@ import re
 
 # === Load Data from GitHub ===
 CSV_URL = "https://dataverse.harvard.edu/api/access/datafile/11812470"
-df = pd.read_csv(CSV_URL)
+response = requests.get(CSV_URL, headers={"User-Agent": "Mozilla/5.0"})
+response.raise_for_status()
 df['dateFiled'] = pd.to_datetime(df['dateFiled'], errors='coerce')
 df['year'] = df['dateFiled'].dt.year
 df['top_cluster'] = pd.to_numeric(df['top_cluster'], errors='coerce')
