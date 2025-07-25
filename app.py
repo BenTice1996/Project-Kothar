@@ -160,6 +160,6 @@ def update_output(keyword, case_name_kw, topic, years, n_prev, n_next, n_downloa
 
     return count_text, case_divs, str(page), tally_block, dash.no_update
 
-if __name__ == '__main__':
-    print("🌐 Starting server at http://127.0.0.1:8050/")
-    app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(debug=False, host="0.0.0.0", port=7860)
+
