@@ -9,6 +9,19 @@ import io
 CSV_URL = "https://dataverse.harvard.edu/api/access/datafile/11816137"
 response = requests.get(CSV_URL, headers={"User-Agent": "Mozilla/5.0"})
 response.raise_for_status()
+
+# ✅ Only load necessary columns to reduce memory use
+usecols = [
+    'caseName',
+    'absolute_url',
+    'opinion_text',
+    'top_cluster',
+    'top_cluster_terms',
+    'dateFiled'
+]
+df = pd.read_csv(io.StringIO(response.text), usecols=usecols)
+
+# ✅ Minimal processing
 df['dateFiled'] = pd.to_datetime(df['dateFiled'], errors='coerce')
 df['year'] = df['dateFiled'].dt.year
 df['top_cluster'] = pd.to_numeric(df['top_cluster'], errors='coerce')
