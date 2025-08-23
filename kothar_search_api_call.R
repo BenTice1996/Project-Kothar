@@ -19,7 +19,7 @@ library(dplyr)
 library(stringdist)
 
 # Set your API Token
-api_key = "b58f4ded325462cccf1226ae55d7c228f1032978"
+api_key = "" #Insert your API key here
 
 # Set base API URL
 search_url <- "https://www.courtlistener.com/api/rest/v4/search/"
@@ -89,6 +89,7 @@ repeat {
 }
 
 # Save as JSON
-write_json(all_results, "C:/Users/Ben Tice/Desktop/search_api_results.json", pretty = TRUE)
+write_json(all_results, "", pretty = TRUE) #Insert your file path here
+
 
 
