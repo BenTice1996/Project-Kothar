@@ -5,10 +5,10 @@ library(dplyr)
 library(readr)
 
 # === CONFIG ===
-api_key <- "b58f4ded325462cccf1226ae55d7c228f1032978"
+api_key <- "" #Insert your API key here
 opinions_url <- "https://www.courtlistener.com/api/rest/v4/opinions/"
-json_file_path <- "C:/Users/Ben Tice/Desktop/search_api_results.json"
-csv_file_path <- "C:/Users/Ben Tice/Desktop/court_api_results.csv"
+json_file_path <- "" #Insert your JSON path here
+csv_file_path <- "" #Insert your CSV path here
 
 # === Load or create responses dataframe ===
 if (file.exists(csv_file_path)) {
@@ -90,3 +90,4 @@ for (i in seq_along(cases$cluster_id)) {
 }
 
 message("🎉 All case data processed and saved!")
+
