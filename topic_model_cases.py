@@ -30,9 +30,9 @@ if __name__ == "__main__":
     nltk.download("omw-1.4")
 
     # === USER CONFIGURATION === #
-    metadata_path = "C:/Users/jklch/Downloads/all_data_4/merged_data_new 1.csv"
-    output_dir = "C:/Users/jklch/Downloads/all_data_4/aggregated_modeling"
-    data_dir = "C:/Users/jklch/Downloads/all_data_4"
+    metadata_path = "" #Insert your file path here
+    output_dir = "" #Insert your file path here
+    data_dir = "" #Insert your file path here
     topic_range = [10, 20, 30, 40]
     alpha_vals = ['symmetric', 'asymmetric', 0.01, 0.1, 0.5]
     beta_vals = ['symmetric', 0.01, 0.1, 0.5]
@@ -249,3 +249,4 @@ if __name__ == "__main__":
     print(f"  - {top1_out}")
     print(f"  - {top3_out}")
     print(f"  - {merged_output_path}")
+
