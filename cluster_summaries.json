@@ -1,0 +1,242 @@
+[
+  {
+    "cluster_id": 33,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4585544595020026,
+    "top_terms": "jurisdiction; state; action; claim; inc; new; complaint; york; forum; personal"
+  },
+  {
+    "cluster_id": 31,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4747994891467771,
+    "top_terms": "child; medical; care; evidence; parent; hospital; record; health; time; family"
+  },
+  {
+    "cluster_id": 32,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5640633221717768,
+    "top_terms": "mark; trademark; use; confusion; inc; name; product; good; likelihood; service"
+  },
+  {
+    "cluster_id": 39,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5343347472779328,
+    "top_terms": "work; copyright; similarity; idea; inc; two; substantial; similar; design; expression"
+  },
+  {
+    "cluster_id": 28,
+    "num_topics": 1,
+    "average_topic_coherence": 0.3804591744776288,
+    "top_terms": "design; profit; sale; evidence; infringing; inc; infringement; green; diamond; fabric"
+  },
+  {
+    "cluster_id": 26,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5056601129091504,
+    "top_terms": "program; copyright; work; inc; idea; copying; fact; expression; protection; element"
+  },
+  {
+    "cluster_id": 34,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4902839244330755,
+    "top_terms": "motion; claim; judgment; order; rule; action; filed; complaint; party; issue"
+  },
+  {
+    "cluster_id": 25,
+    "num_topics": 1,
+    "average_topic_coherence": 0.6625063942005271,
+    "top_terms": "music; copyright; song; recording; record; infringement; composition; inc; license; musical"
+  },
+  {
+    "cluster_id": 16,
+    "num_topics": 1,
+    "average_topic_coherence": 0.2532245176070539,
+    "top_terms": "brown; bag; rico; puerto; del; louis; ridge; blue; andrew; vuitton"
+  },
+  {
+    "cluster_id": 15,
+    "num_topics": 1,
+    "average_topic_coherence": 0.6306735479467762,
+    "top_terms": "unfair; name; claim; competition; inc; false; product; lanham; trademark; advertising"
+  },
+  {
+    "cluster_id": 12,
+    "num_topics": 1,
+    "average_topic_coherence": 0.6122375451059486,
+    "top_terms": "officer; united; state; government; search; police; criminal; offense; violation; warrant"
+  },
+  {
+    "cluster_id": 19,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4947021932183187,
+    "top_terms": "microsoft; software; window; apple; product; lexmark; intel; operating; system; sun"
+  },
+  {
+    "cluster_id": 38,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4137840254949648,
+    "top_terms": "patent; right; infringement; use; patented; suit; invention; united; may; sale"
+  },
+  {
+    "cluster_id": 29,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4662863498173267,
+    "top_terms": "school; public; amendment; first; speech; right; interest; religious; would; student"
+  },
+  {
+    "cluster_id": 21,
+    "num_topics": 1,
+    "average_topic_coherence": 0.6187176529631393,
+    "top_terms": "tax; property; interest; bank; payment; bankruptcy; debtor; fund; amount; corporation"
+  },
+  {
+    "cluster_id": 35,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5002155603551531,
+    "top_terms": "copyright; work; right; copy; author; owner; infringement; copyrighted; section; exclusive"
+  },
+  {
+    "cluster_id": 22,
+    "num_topics": 1,
+    "average_topic_coherence": 0.459794274799004,
+    "top_terms": "employee; board; class; member; union; employer; party; employment; election; candidate"
+  },
+  {
+    "cluster_id": 20,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5211980876248418,
+    "top_terms": "game; card; player; video; software; program; team; baseball; dsc; football"
+  },
+  {
+    "cluster_id": 7,
+    "num_topics": 1,
+    "average_topic_coherence": 0.6397088239512532,
+    "top_terms": "policy; insurance; injury; coverage; duty; insured; claim; advertising; liability; insurer"
+  },
+  {
+    "cluster_id": 23,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4474293751100261,
+    "top_terms": "property; land; city; water; plan; county; building; use; owner; construction"
+  },
+  {
+    "cluster_id": 27,
+    "num_topics": 1,
+    "average_topic_coherence": 0.552065930335328,
+    "top_terms": "damage; fee; award; cost; amount; jury; inc; profit; trial; 000"
+  },
+  {
+    "cluster_id": 9,
+    "num_topics": 1,
+    "average_topic_coherence": 0.3928113016906908,
+    "top_terms": "price; market; business; antitrust; company; sale; product; would; license; agreement"
+  },
+  {
+    "cluster_id": 36,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4838255689432467,
+    "top_terms": "injunction; preliminary; harm; irreparable; would; merit; relief; inc; success; likelihood"
+  },
+  {
+    "cluster_id": 13,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4818399625349429,
+    "top_terms": "trial; jury; evidence; state; testimony; witness; would; error; judge; instruction"
+  },
+  {
+    "cluster_id": 17,
+    "num_topics": 1,
+    "average_topic_coherence": 0.3700368635312293,
+    "top_terms": "patent; claim; machine; one; device; art; prior; said; mean; would"
+  },
+  {
+    "cluster_id": 24,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5970493993642718,
+    "top_terms": "product; trade; dress; design; inc; feature; secondary; meaning; functional; consumer"
+  },
+  {
+    "cluster_id": 10,
+    "num_topics": 1,
+    "average_topic_coherence": 0.2943643991335406,
+    "top_terms": "upon; said; made; one; would; time; may; question; company; new"
+  },
+  {
+    "cluster_id": 37,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4191830357292323,
+    "top_terms": "patent; claim; fed; inc; infringement; invention; issue; art; application; limitation"
+  },
+  {
+    "cluster_id": 18,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4770646614378432,
+    "top_terms": "cal; california; 9th; 4th; app; code; section; los; angeles; san"
+  },
+  {
+    "cluster_id": 30,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4693894279263933,
+    "top_terms": "information; document; motion; discovery; doe; party; 2008; 2009; 2006; 2007"
+  },
+  {
+    "cluster_id": 14,
+    "num_topics": 1,
+    "average_topic_coherence": 0.5468115039466033,
+    "top_terms": "secret; system; computer; trade; information; software; data; use; code; technology"
+  },
+  {
+    "cluster_id": 8,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4798829764549793,
+    "top_terms": "state; united; 167; congress; section; power; government; provision; may; decision"
+  },
+  {
+    "cluster_id": 4,
+    "num_topics": 1,
+    "average_topic_coherence": 0.549905335240516,
+    "top_terms": "summary; judgment; claim; fact; evidence; material; motion; copyright; inc; genuine"
+  },
+  {
+    "cluster_id": 11,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4254672383632855,
+    "top_terms": "use; fair; work; film; right; picture; factor; purpose; commercial; inc"
+  },
+  {
+    "cluster_id": 6,
+    "num_topics": 1,
+    "average_topic_coherence": 0.7854809691091023,
+    "top_terms": "service; television; cable; network; station; broadcast; system; program; transmission; public"
+  },
+  {
+    "cluster_id": 3,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4290169704112009,
+    "top_terms": "state; right; amendment; claim; immunity; process; constitutional; action; supreme; due"
+  },
+  {
+    "cluster_id": 5,
+    "num_topics": 1,
+    "average_topic_coherence": 0.6300932837850235,
+    "top_terms": "user; website; image; infringement; internet; com; site; infringing; web; use"
+  },
+  {
+    "cluster_id": 2,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4699698194126743,
+    "top_terms": "book; doll; toy; edition; sale; wood; publishing; baby; allen; ice"
+  },
+  {
+    "cluster_id": 1,
+    "num_topics": 1,
+    "average_topic_coherence": 0.421700474502885,
+    "top_terms": "agreement; contract; party; right; claim; license; breach; term; would; inc"
+  },
+  {
+    "cluster_id": 0,
+    "num_topics": 1,
+    "average_topic_coherence": 0.4965288491450718,
+    "top_terms": "copyright; notice; registration; publication; copy; office; certificate; title; register; published"
+  }
+]
