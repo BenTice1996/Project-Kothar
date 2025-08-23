@@ -4,7 +4,7 @@ library(readr)
 library(purrr)
 
 # Load the CSV file
-file_path <- "C:/Users/Ben Tice/Desktop/court_api_results.csv"
+file_path <- "" #Insert your file path here
 df <- read.csv(file_path, stringsAsFactors = FALSE)
 
 # Function to extract opinion text
@@ -36,4 +36,5 @@ updated_df <- df %>%
   filter(!is.na(opinion_text))
 
 # Save the modified dataframe if needed
-write_csv(df, "C:/Users/Ben Tice/Desktop/kothar_dataset.csv") 
+write_csv(df, "") #Insert your file path here 
+
