@@ -7,10 +7,10 @@ library(purrr)
 library(stringr)
 
 # Load datasets
-json_file <- fromJSON("C:/Users/Ben Tice/Desktop/search_api_results.json")
+json_file <- fromJSON("") #Insert your file path here
 json_cases <- as.data.frame(json_file)
 
-cases_file <- read_csv("C:/Users/Ben Tice/Desktop/kothar_dataset")
+cases_file <- read_csv("") #Insert your file path here
 csv_cases <- as.data.frame(cases_file)
 
 # Remove shortened opinions from json_cases
@@ -105,7 +105,8 @@ updated_df <- merged_df %>%
 updated_df <- updated_df %>%
   filter(9 < str_count(opinion_text, '\\w+'))
 
-write_csv(updated_df, "C:/Users/Ben Tice/Desktop/kothar_dataset_metadata.csv")
+write_csv(updated_df, "") #Insert your file path here
+
 
 
 
